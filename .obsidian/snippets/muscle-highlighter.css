@@ -1,0 +1,32 @@
+/* muscle-highlighter.css - ИСПРАВЛЕННАЯ ВЕРСИЯ */
+
+/* Главный контейнер для двух моделей */
+.muscle-map-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Создает две колонки равной ширины */
+  gap: 10px; /* Расстояние между моделями */
+  padding: 10px 0;
+  justify-items: center;
+  align-items: start;
+}
+
+/* Контейнер для одной SVG-модели */
+.muscle-map-container {
+  width: 100%;
+  max-width: 250px; /* Вы можете изменить это значение, чтобы сделать модели больше или меньше */
+}
+
+.muscle-map-container svg {
+  width: 100%;
+  height: auto;
+}
+
+/* 
+  Стили для обводки и анимации. 
+  Правило 'fill' (цвет заливки) УБРАНО, так как его полностью контролирует JavaScript.
+*/
+.muscle-map-container svg path {
+  stroke: #f5f5f5; /* Светлая обводка для контраста в темной теме */
+  stroke-width: 2;
+  transition: fill 0.3s ease-in-out;
+}

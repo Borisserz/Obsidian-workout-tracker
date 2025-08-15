@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "425e82abaead3523",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a4547e6b698232e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f73324b87a8eca5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workout list.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Workout list"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "878a6b80c304a821",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6ef61a71856d155",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a47b43e5f0e19b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "f6bf75bc82d922c6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
+            }
+          },
+          {
+            "id": "7b33950de697b8a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "0de435fb8d5b92bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "285bd5590c21a41e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7ae938dbfb1e4b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a94417ca3e0df29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "5b35ec86eefe9ec6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "392feecd8af425e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "e6d13a203f2ea736",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templates:Вставить шаблон": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "4f73324b87a8eca5",
+  "lastOpenFiles": [
+    "Workout list.md",
+    "Templates/Workouts/gym/Workout 1-1 Full-Body.md",
+    "🏆 Ваш прогресс.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Workout 1-1 Full-Body.md",
+    "Templates/exercises/6Legs/67.Приседания в Смите.md",
+    "Templates/exercises/6Legs/68.Приседания в Гакке.md",
+    "Templates/exercises/6Legs/66.Разгибание ног.md",
+    "Templates/exercises/6Legs/65.Сгибания ног.md",
+    "Templates/exercises/6Legs/63.Жим ногами в тренажере.md",
+    "Templates/exercises/6Legs/62.Выпады.md",
+    "Templates/exercises/6Legs/61.Приседания со штангой.md",
+    "Templates/exercises/7Abs/71.Прямые скручивания.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/8.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/7.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/6.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/5.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/4.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/3.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/2.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log/1.md",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body/Log",
+    "Workouts/2025-08-06 - Workout 1-1 Full-Body",
+    "Templates/exercises/1Chest/11.Жим штанги лежа горизонтально.md",
+    "Templates/exercises/Без названия.md",
+    "Templates/exercises/8gymnastics",
+    "Templates/exercises/5Shouldres/56.Комплекс на плечи.md",
+    "Templates/exercises/5Shouldres/55.Жим Арнольда.md",
+    "Templates/exercises/2Back/29.Тяга в хамере.md",
+    "Templates/exercises/2Back/28.Становая тяга.md",
+    "_js/shared/list.js",
+    "_js/shared/List.js",
+    "_js/shared/workout — копия.js",
+    "Workouts/2025-08-06 - Workout 4-1 Legs-abs/Log",
+    "Workouts/2025-08-06 - Workout 4-1 Legs-abs",
+    "Workouts/2025-08-05 - Workout 1-1 Full-Body/Log",
+    "Workouts/2025-08-05 - Workout 1-1 Full-Body"
+  ]
+}
