@@ -31,51 +31,31 @@ dv.table(["Last workouts", "Date", "Workout type"], pages.slice(0, 5)
 ```
 
 ```dataviewjs
-dv.span("** 😊 Workouts  😥**") ⏹️💤⚡⚠🧩↑↓⏳📔💾📁📝🔄📝🔀⌨️🕸️📅🔍✨ */
-const calendarData = {
-    year: 2025,  
-    colors: {    
-        blue:        ["#8cb9ff", "#69a3ff", "#428bff", "#1872ff", "#0058e2"], 
-        green:       ["#c6e48b", "#7bc96f", "#49af5d", "#2e8840", "#196127"],
-        red:         ["#ff9e82", "#ff7b55", "#ff4d1a", "#e73400", "#bd2a00"],
-        orange:      ["#ffa244", "#fd7f00", "#dd6f00", "#bf6000", "#9b4e00"],
-        pink:        ["#ff96cb", "#ff70b8", "#ff3a9d", "#ee0077", "#c30062"],
-        orangeToRed: ["#ffdf04", "#ffbe04", "#ff9a03", "#ff6d02", "#ff2c01"]
-    },
-    showCurrentDayBorder: true, 
-    defaultEntryIntensity: 4,   
-    intensityScaleStart: 10,    
-    intensityScaleEnd: 100,  
-    entries: [],                
-}
+try {
 
-for (let page of dv.pages('#workout')) 
-{
-    if (!page.file.day) {
-        continue;
-    }
-	let metadata = app.metadataCache.getFileCache(page.file);
-	let color = null;
-	
-	if(metadata.frontmatter['type'] != null)
-	{
-		let colors = Object.keys(calendarData.colors); 
-		color = colors[metadata.frontmatter['sub_type']-1];
-	}
-	else
-		color = metadata.frontmatter.tags.includes('2-1') ? "orange" : 'green'
-    if(metadata.frontmatter['id'] == null)
-	    continue;
-        
-	let formattedDate = page.file.day.toFormat("yyyy-MM-dd");
-    calendarData.entries.push({
-        date: formattedDate,
-        intensity: 1, 
-        color: color
-    })
-}
+    let pages = dv.pages('"Workouts" and #workout')
+        .sort(p => p.file.day || p.date, "desc");
+    dv.header(3, "Total number of workouts: " + pages.length);
 
-renderHeatmapCalendar(this.container, calendarData)
+
+    dv.table(["Last workouts", "Date", "Workout type"], pages.slice(0, 5)
+        .map(p => {
+            let dateObject = p.file.day || p.date;
+
+       
+            let displayDate = dateObject ? dateObject.toFormat("yyyy-MM-dd") : "---";
+
+       
+            return [
+                p.file.link,
+                displayDate,
+                p.workout || "N/A"
+            ];
+        })
+    );
+} catch (e) {
+    dv.paragraph("❌ **error Dataview:** " + e.message);
+}
 ```
 
 ```dataviewjs
